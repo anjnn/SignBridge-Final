@@ -1,0 +1,16 @@
+{
+  "name": "multilingual-sign-language-interpreter",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Multilingual Real-Time Sign Language Interpreter (ASL/ISL)",
+  "scripts": {
+    "start": "node start.js",
+    "dev": "node start.js",
+    "start:backend": "backend\\.venv\\Scripts\\python backend\\app\\server.py",
+    "dev:frontend": "npm --prefix frontend run dev",
+    "build:frontend": "npm --prefix frontend run build",
+    "test:model": "backend\\.venv\\Scripts\\python backend\\app\\test_model.py",
+    "test:isl": "backend\\.venv\\Scripts\\python backend\\app\\test_isl_model.py",
+    "collect:isl": "backend\\.venv\\Scripts\\python backend\\app\\collect_isl_data.py"
+  }
+}
